@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-image: url(/images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    margin-bottom: 150px;
+}
+.m-t{
+    margin-top: 150px;
+}
+
+#margin{
+    margin-bottom: 150px;
+}
+
+.header h1{
+    color: rgb(255, 86, 71);
+    font-size: 70px;
+    text-align: center;
+}
+.header p{
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+.btn{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, tomato, rgb(255, 45, 45));
+}
+
+.donate-today{
+    width: 70%;
+    margin: 0 auto;
+}
+.donate-text {
+    text-align: center;
+}
+.donate-text h1{
+    font-size: 50px;
+}
+.donate-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 40px;
+}
+.card{
+    margin: 10px 20px;
+    padding: 20px 40px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.active{
+    background: rgb(255 238 238);
+    border: 1px solid rgb(255, 89, 89);
+}
+.donate-now-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mt-10{
+    margin-top: 30px;
+}
+.mb-10{
+    margin-bottom: 30px;
+}
+.input-div input{
+    text-align: center;
+    height: 20px;
+    width: 600px;
+    padding: 10px 40px;
+    outline: none;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid gray;
+}
+.side-gap{
+
+width: 80%;
+margin: 0 auto;
+
+}
+.donation-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.donation-text{
+    text-align: center;
+}
+.donation-text h1{
+    font-size: 50px;
+}
+.donation-card{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-card{
+    width: 300px;
+    height: auto;
+    padding: 10px 20px;
+    margin: 0 30px;
+}
+.bg-teal{
+    background: #edf5f6;
+}
+.bg-red{
+    background: #ffeeee;
+}
+.bg-wheat{
+    background: #fff4d6;
+}
+.icons img{
+width: 20%;
+}
+.heading-text{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+}
+.left-side{
+    margin-right: 20px;
+width: 60%;
+}
+.right-side img{
+    width: 70%;
+}
+.large-heading h1{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.about-us-heading p{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.get-update{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.update-input{
+    margin-top: 40px;
+    padding: 100px 300px;
+    background: #fff4d6;
+}
+.main input{
+    text-align: left;
+    padding: 20px 30px;
+    border-radius: 10px;
+border: none;
+background: rgb(216, 216, 216);
+}
+.button-btn{
+    cursor: pointer;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background: #ff5959;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(35, 23, 48);
+}
+.footer p{
+    color: white;
+}
+.footer-text{
+    color: tomato;
+    font-family: 'Satisfy', cursive;
+}
